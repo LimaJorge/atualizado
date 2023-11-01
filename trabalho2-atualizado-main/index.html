@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos preparatórios</title>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-
         <h1 class="topo">Cursos preparatorios</h1>
+
         <a href="#" class="open" onclick="abrirMenu()">&#9776;</a>
 
     </header>
@@ -22,9 +22,11 @@
         <a href="curso2.html">Desenvolvimento Web</a>
         <a href="curso3.html">Marketing Digital</a>
         <a href="professor.html">Professores</a>
-    </nav>/
+        <a href="login.html">login</a>
+    </nav>
 
-    <div class="container" id="conteudo">
+    <div class="container2" id="container2">
+        <div class="container" id="conteudo">
         <h2>Apresentando a TechEducação: Expandindo Horizontes Digitais</h2>
         <p>Na era da informação, a TechEducação surge como um farol de conhecimento, iluminando o caminho para o sucesso
             na
@@ -90,7 +92,7 @@
         <p>Email: contato@meusite.com</p>
         <p>Telefone: (55) 81 95456-7890</p>
     </div>
-
+</div>
     <script>
         function abrirMenu() {
             document.getElementById('menu').style.width = '250px';
@@ -99,10 +101,9 @@
 
         function fecharMenu() {
             document.getElementById('menu').style.width = '0px';
-            document.getElementById('conteudo').style.marginLeft = '250px';
+            document.getElementById('conteudo').style.marginLeft = '0px';
         }
     </script>
-
 </body>
 
 </html>
